@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainWindow.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="App.idl" />
+    <Midl Include="MainWindow.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{080e8009-ba60-41ce-baee-c6222f4d6bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\photopack01">
+      <UniqueIdentifier>{f9b28a39-fca8-4c7e-8f9e-1a478000b967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\photopack02">
+      <UniqueIdentifier>{bbaee891-b148-48b6-bdc0-1c08b3b02920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\anim_gifs">
+      <UniqueIdentifier>{efc8232a-ac1c-4ac2-9d82-1ecbb3df7fad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+    <Text Include="Assets\photopack01\sample_doc01.txt">
+      <Filter>Assets\photopack01</Filter>
+    </Text>
+    <Text Include="Assets\photopack01\sample_doc02.txt">
+      <Filter>Assets\photopack01</Filter>
+    </Text>
+    <Text Include="Assets\photopack01\sample_doc03.txt">
+      <Filter>Assets\photopack01</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Assets\photopack01\sample_doc01 - Copy.01">
+      <Filter>Assets\photopack01</Filter>
+    </None>
+    <None Include="Assets\photopack01\sample_doc02 - Copy.abc">
+      <Filter>Assets\photopack01</Filter>
+    </None>
+    <None Include="Assets\photopack01\sample_doc03 - Copy.123">
+      <Filter>Assets\photopack01</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\photopack01\Chairs.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Champs Elysee.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\China 02.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\China Town 02.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\China Town.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Cup.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Italy countryside 04.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Italy countryside 05.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Italy countryside 06.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Italy countryside 07.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Italy countryside 12.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Italy countryside.JPG">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Italy lake city 12.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Italy lake city 13.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Italy lake city.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\London 02.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\London 03.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\London 04.JPG">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\London 09.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\London.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Paris 04.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Regent Canal 07.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Regent Canal 08.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Regent Canal.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Sandwich.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\The Spree bw.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Turin 06.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Turin 07.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Turin 08.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\Turin.jpg">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Amsterdam 05.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Amsterdam 06.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Amsterdam.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Bar 2.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Bar.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Bears.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Fernsehturm.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Flower gate.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Flowers 02.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Flowers 03.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Flowers.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Han Solo.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Italy lake city 06.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Italy lake city 07.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Italy lake city 08.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Italy lake city 09.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Italy lake city 10.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Louvre 02.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Louvre.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Net.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Notre Dame.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Old coin.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Sanssouci 02.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Sanssouci 03.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Sanssouci 05.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Sanssouci.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\photopack02\Sparrows.jpg">
+      <Filter>Assets\photopack02</Filter>
+    </Image>
+    <Image Include="Assets\bg1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\loop techno.gif">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\photopack01\water glow 02.gif">
+      <Filter>Assets\photopack01</Filter>
+    </Image>
+    <Image Include="Assets\anim_gifs\loop techno.gif">
+      <Filter>Assets\anim_gifs</Filter>
+    </Image>
+    <Image Include="Assets\anim_gifs\water glow 02.gif">
+      <Filter>Assets\anim_gifs</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

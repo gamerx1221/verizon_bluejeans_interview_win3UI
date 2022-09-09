@@ -1,0 +1,42 @@
+﻿<Window
+    x:Name="mainWindow"
+    x:Class="win3_sample_dev_tutorial.MainWindow"
+ 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:win3_sample_dev_tutorial"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" SizeChanged="mainWindow_SizeChanged">
+    <Canvas x:Name="primaryCanvas" CacheMode="BitmapCache">
+
+            <Image x:Name="TopLeftImg1" CacheMode="BitmapCache"  Stretch="UniformToFill">
+                <Image.Clip>
+                    <RectangleGeometry x:Name="topLeftRect1" />
+                </Image.Clip>
+            </Image>
+        <Image x:Name="TopRightImg1" CacheMode="BitmapCache" Stretch="UniformToFill">
+                <Image.Clip>
+                    <RectangleGeometry x:Name="topRightRect1" />
+                </Image.Clip>
+            </Image>
+        <Image x:Name="BottomLeftImg1" CacheMode="BitmapCache" Stretch="UniformToFill">
+                <Image.Clip>
+                    <RectangleGeometry x:Name="bottomLeftRect1" />
+                </Image.Clip>
+            </Image>
+        <Image x:Name="BottomRightImg1" CacheMode="BitmapCache" Stretch="UniformToFill">
+                <Image.Clip>
+                    <RectangleGeometry x:Name="bottomRightRect1"/>
+                </Image.Clip>
+            </Image>
+          
+        <Button Style="{StaticResource AccentButtonStyle}" x:Name="Start_Stop" Click="Start_Stop_Click" Width="80" Height="40" Content="STOP"/>
+        
+            <ProgressBar x:Name="filesLoading" Value="100" Maximum="250" Width="250" IsIndeterminate="True" Visibility="Visible"></ProgressBar>
+          <!-- <InfoBar x:Name="infoBar" Visibility="Collapsed" IsOpen="True" IsIconVisible="True" IsClosable="True" Title="Title" Message="" />
+            <Button Style="{StaticResource AccentButtonStyle}" x:Name="ChooseDirectory" Click="ChooseDirectory_Click" /> -->
+
+    </Canvas>
+   
+</Window>

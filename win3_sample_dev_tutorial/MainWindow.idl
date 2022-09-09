@@ -1,0 +1,8 @@
+namespace win3_sample_dev_tutorial
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+    }
+}
